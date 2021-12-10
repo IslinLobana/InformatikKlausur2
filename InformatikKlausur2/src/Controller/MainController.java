@@ -32,14 +32,14 @@ public class MainController{
 
         Buchung b8 = new Buchung("19.01.21 12 Uhr", 6, "Nils", "Ahsendorf", 19);
 
-        System.out.println(r1 + " " + b1);
-        System.out.println(r1 + " " + b2);
-        System.out.println(r2 + " " + b3);
-        System.out.println(r2 + " " + b4);
-        System.out.println(r3 + " " + b5);
-        System.out.println(r3 + " " + b6);
-        System.out.println(r4 + " " + b7);
-        System.out.println(r4 + " " + b8);
+        o.printData(r1 + " " + b1);
+        o.printData(r1 + " " + b2);
+        o.printData(r2 + " " + b3);
+        o.printData(r2 + " " + b4);
+        o.printData(r3 + " " + b5);
+        o.printData(r3 + " " + b6);
+        o.printData(r4 + " " + b7);
+        o.printData(r4 + " " + b8);
 
 
 
