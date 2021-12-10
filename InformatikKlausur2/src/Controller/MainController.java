@@ -1,6 +1,7 @@
 package Controller;
 
 import Model.*;
+import View.Output;
 
 public class MainController{
 
@@ -31,6 +32,8 @@ public class MainController{
         Buchung b7 = new Buchung("18.01.21 12 Uhr", 6, "Nils", "Ahsendorf", 18);
 
         Buchung b8 = new Buchung("19.01.21 12 Uhr", 6, "Nils", "Ahsendorf", 19);
+
+        Output o = new Output();
 
         o.printData(r1 + " " + b1);
         o.printData(r1 + " " + b2);
